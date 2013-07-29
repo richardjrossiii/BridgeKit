@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function initializeTest() {
+                BridgeKit.registerEvent('textFieldUpdated', function (newText) {
+                    document.getElementById('textUpdate').innerHTML = newText;
+                });
+            }
+        </script>
+    </head>
+    <body onload="initializeTest()">
+        <div id="textUpdate">
+            Waiting for you to type something!
+        </div>
+
+        <br/>
+
+        <div>
+            Here is the javascript code that sets up this example:
+            <br/>
+
+            <pre><code>BridgeKit.registerEvent('textFieldUpdated', function (newText) {
+    document.getElementById('textUpdate').innerHTML = newText;
+});</code></pre>
+        </div>
+    </body>
+</html>

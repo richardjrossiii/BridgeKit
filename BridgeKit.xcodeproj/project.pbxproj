@@ -7,19 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C3BBE66617A5F30300B11703 /* BridgeKitDelegateRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C3BBE66517A5F30300B11703 /* BridgeKitDelegateRequest.m */; };
+		C3BBE66917A5F88600B11703 /* NativeEventHandlingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3BBE66817A5F88600B11703 /* NativeEventHandlingViewController.m */; };
+		C3BBE66B17A5F8A100B11703 /* NativeEventHandling.html in Resources */ = {isa = PBXBuildFile; fileRef = C3BBE66A17A5F8A100B11703 /* NativeEventHandling.html */; };
+		C3BBE66E17A5FBA000B11703 /* AsynchronousRequests.html in Resources */ = {isa = PBXBuildFile; fileRef = C3BBE66C17A5FBA000B11703 /* AsynchronousRequests.html */; };
+		C3BBE66F17A5FBA000B11703 /* SynchronousRequests.html in Resources */ = {isa = PBXBuildFile; fileRef = C3BBE66D17A5FBA000B11703 /* SynchronousRequests.html */; };
+		C3BBE67217A5FC6A00B11703 /* AsynchronousRequestsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3BBE67117A5FC6A00B11703 /* AsynchronousRequestsViewController.m */; };
+		C3BBE67517A5FFAD00B11703 /* SynchronousRequestsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3BBE67417A5FFAD00B11703 /* SynchronousRequestsViewController.m */; };
+		C3BBE67B17A69A5400B11703 /* BridgeKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C3BCDF1117A30E2100C56AE2 /* BridgeKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3BBE67C17A69A5400B11703 /* BridgeKitCallback.h in Headers */ = {isa = PBXBuildFile; fileRef = C3DAD16B17A4044A009E24D7 /* BridgeKitCallback.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3BBE67D17A69A5400B11703 /* BridgeKitDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = C3DAD17017A406EE009E24D7 /* BridgeKitDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3BBE67E17A69A5400B11703 /* BridgeKitRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = C3DAD17117A409FA009E24D7 /* BridgeKitRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3BBE67F17A69A5400B11703 /* BridgeKitDelegateRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = C3BBE66417A5F30300B11703 /* BridgeKitDelegateRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C3BCDF0D17A30E2100C56AE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3BCDF0C17A30E2100C56AE2 /* Foundation.framework */; };
-		C3BCDF1217A30E2100C56AE2 /* BridgeKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C3BCDF1117A30E2100C56AE2 /* BridgeKit.h */; };
 		C3BCDF1417A30E2200C56AE2 /* BridgeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C3BCDF1317A30E2100C56AE2 /* BridgeKit.m */; };
-		C3BCDF1C17A30E2200C56AE2 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3BCDF1B17A30E2200C56AE2 /* SenTestingKit.framework */; };
-		C3BCDF1E17A30E2200C56AE2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3BCDF1D17A30E2200C56AE2 /* UIKit.framework */; };
-		C3BCDF1F17A30E2200C56AE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3BCDF0C17A30E2100C56AE2 /* Foundation.framework */; };
-		C3BCDF2217A30E2200C56AE2 /* libBridgeKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C3BCDF0917A30E2100C56AE2 /* libBridgeKit.a */; };
-		C3BCDF2817A30E2200C56AE2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3BCDF2617A30E2200C56AE2 /* InfoPlist.strings */; };
-		C3BCDF2B17A30E2200C56AE2 /* BridgeKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3BCDF2A17A30E2200C56AE2 /* BridgeKitTests.m */; };
+		C3DAD16D17A4044A009E24D7 /* BridgeKitCallback.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DAD16C17A4044A009E24D7 /* BridgeKitCallback.m */; };
+		C3DAD16F17A406D4009E24D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3DAD16E17A406D4009E24D7 /* UIKit.framework */; };
+		C3DAD17317A409FA009E24D7 /* BridgeKitRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DAD17217A409FA009E24D7 /* BridgeKitRequest.m */; };
+		C3DAD17917A41CD1009E24D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3DAD16E17A406D4009E24D7 /* UIKit.framework */; };
+		C3DAD17A17A41CD1009E24D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3BCDF0C17A30E2100C56AE2 /* Foundation.framework */; };
+		C3DAD17C17A41CD1009E24D7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3DAD17B17A41CD1009E24D7 /* CoreGraphics.framework */; };
+		C3DAD18217A41CD1009E24D7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3DAD18017A41CD1009E24D7 /* InfoPlist.strings */; };
+		C3DAD18417A41CD1009E24D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DAD18317A41CD1009E24D7 /* main.m */; };
+		C3DAD18A17A41CD1009E24D7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C3DAD18917A41CD1009E24D7 /* Default.png */; };
+		C3DAD18C17A41CD1009E24D7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3DAD18B17A41CD1009E24D7 /* Default@2x.png */; };
+		C3DAD18E17A41CD1009E24D7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3DAD18D17A41CD1009E24D7 /* Default-568h@2x.png */; };
+		C3DAD19117A41CD1009E24D7 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3DAD18F17A41CD1009E24D7 /* MainStoryboard.storyboard */; };
+		C3DAD19A17A41D84009E24D7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DAD19917A41D84009E24D7 /* AppDelegate.m */; };
+		C3DAD19D17A420C3009E24D7 /* EventHandlingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DAD19C17A420C3009E24D7 /* EventHandlingViewController.m */; };
+		C3DAD1A217A42243009E24D7 /* EventHandling.html in Resources */ = {isa = PBXBuildFile; fileRef = C3DAD1A017A42134009E24D7 /* EventHandling.html */; };
+		C3DAD1A317A4225E009E24D7 /* libBridgeKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C3BCDF0917A30E2100C56AE2 /* libBridgeKit.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C3BCDF2017A30E2200C56AE2 /* PBXContainerItemProxy */ = {
+		C3DAD1A417A42262009E24D7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C3BCDF0117A30E2100C56AE2 /* Project object */;
 			proxyType = 1;
@@ -28,32 +49,44 @@
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		C3BCDF0717A30E2100C56AE2 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "include/${PRODUCT_NAME}";
-			dstSubfolderSpec = 16;
-			files = (
-				C3BCDF1217A30E2100C56AE2 /* BridgeKit.h in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
+		C3BBE66417A5F30300B11703 /* BridgeKitDelegateRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgeKitDelegateRequest.h; sourceTree = "<group>"; };
+		C3BBE66517A5F30300B11703 /* BridgeKitDelegateRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BridgeKitDelegateRequest.m; sourceTree = "<group>"; };
+		C3BBE66717A5F88600B11703 /* NativeEventHandlingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeEventHandlingViewController.h; sourceTree = "<group>"; };
+		C3BBE66817A5F88600B11703 /* NativeEventHandlingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NativeEventHandlingViewController.m; sourceTree = "<group>"; };
+		C3BBE66A17A5F8A100B11703 /* NativeEventHandling.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NativeEventHandling.html; sourceTree = "<group>"; };
+		C3BBE66C17A5FBA000B11703 /* AsynchronousRequests.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = AsynchronousRequests.html; sourceTree = "<group>"; };
+		C3BBE66D17A5FBA000B11703 /* SynchronousRequests.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = SynchronousRequests.html; sourceTree = "<group>"; };
+		C3BBE67017A5FC6A00B11703 /* AsynchronousRequestsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsynchronousRequestsViewController.h; sourceTree = "<group>"; };
+		C3BBE67117A5FC6A00B11703 /* AsynchronousRequestsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsynchronousRequestsViewController.m; sourceTree = "<group>"; };
+		C3BBE67317A5FFAD00B11703 /* SynchronousRequestsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SynchronousRequestsViewController.h; sourceTree = "<group>"; };
+		C3BBE67417A5FFAD00B11703 /* SynchronousRequestsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SynchronousRequestsViewController.m; sourceTree = "<group>"; };
 		C3BCDF0917A30E2100C56AE2 /* libBridgeKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBridgeKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3BCDF0C17A30E2100C56AE2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		C3BCDF1017A30E2100C56AE2 /* BridgeKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BridgeKit-Prefix.pch"; sourceTree = "<group>"; };
 		C3BCDF1117A30E2100C56AE2 /* BridgeKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgeKit.h; sourceTree = "<group>"; };
 		C3BCDF1317A30E2100C56AE2 /* BridgeKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BridgeKit.m; sourceTree = "<group>"; };
-		C3BCDF1A17A30E2200C56AE2 /* BridgeKitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BridgeKitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3BCDF1B17A30E2200C56AE2 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		C3BCDF1D17A30E2200C56AE2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		C3BCDF2517A30E2200C56AE2 /* BridgeKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BridgeKitTests-Info.plist"; sourceTree = "<group>"; };
-		C3BCDF2717A30E2200C56AE2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		C3BCDF2917A30E2200C56AE2 /* BridgeKitTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgeKitTests.h; sourceTree = "<group>"; };
-		C3BCDF2A17A30E2200C56AE2 /* BridgeKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BridgeKitTests.m; sourceTree = "<group>"; };
+		C3BCDF3417A30E9000C56AE2 /* BridgeKit.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = BridgeKit.js; sourceTree = "<group>"; };
+		C3DAD16B17A4044A009E24D7 /* BridgeKitCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgeKitCallback.h; sourceTree = "<group>"; };
+		C3DAD16C17A4044A009E24D7 /* BridgeKitCallback.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BridgeKitCallback.m; sourceTree = "<group>"; };
+		C3DAD16E17A406D4009E24D7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C3DAD17017A406EE009E24D7 /* BridgeKitDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgeKitDelegate.h; sourceTree = "<group>"; };
+		C3DAD17117A409FA009E24D7 /* BridgeKitRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgeKitRequest.h; sourceTree = "<group>"; };
+		C3DAD17217A409FA009E24D7 /* BridgeKitRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BridgeKitRequest.m; sourceTree = "<group>"; };
+		C3DAD17817A41CD0009E24D7 /* BridgeKitTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BridgeKitTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3DAD17B17A41CD1009E24D7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C3DAD17F17A41CD1009E24D7 /* BridgeKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BridgeKitTests-Info.plist"; sourceTree = "<group>"; };
+		C3DAD18117A41CD1009E24D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C3DAD18317A41CD1009E24D7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C3DAD18917A41CD1009E24D7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C3DAD18B17A41CD1009E24D7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C3DAD18D17A41CD1009E24D7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C3DAD19017A41CD1009E24D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		C3DAD19817A41D84009E24D7 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C3DAD19917A41D84009E24D7 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C3DAD19B17A420C3009E24D7 /* EventHandlingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventHandlingViewController.h; sourceTree = "<group>"; };
+		C3DAD19C17A420C3009E24D7 /* EventHandlingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventHandlingViewController.m; sourceTree = "<group>"; };
+		C3DAD1A017A42134009E24D7 /* EventHandling.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = EventHandling.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,18 +94,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3DAD16F17A406D4009E24D7 /* UIKit.framework in Frameworks */,
 				C3BCDF0D17A30E2100C56AE2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C3BCDF1617A30E2200C56AE2 /* Frameworks */ = {
+		C3DAD17517A41CD0009E24D7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3BCDF1C17A30E2200C56AE2 /* SenTestingKit.framework in Frameworks */,
-				C3BCDF1E17A30E2200C56AE2 /* UIKit.framework in Frameworks */,
-				C3BCDF1F17A30E2200C56AE2 /* Foundation.framework in Frameworks */,
-				C3BCDF2217A30E2200C56AE2 /* libBridgeKit.a in Frameworks */,
+				C3DAD1A317A4225E009E24D7 /* libBridgeKit.a in Frameworks */,
+				C3DAD17917A41CD1009E24D7 /* UIKit.framework in Frameworks */,
+				C3DAD17A17A41CD1009E24D7 /* Foundation.framework in Frameworks */,
+				C3DAD17C17A41CD1009E24D7 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,7 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				C3BCDF0E17A30E2100C56AE2 /* BridgeKit */,
-				C3BCDF2317A30E2200C56AE2 /* BridgeKitTests */,
+				C3DAD17D17A41CD1009E24D7 /* BridgeKitTests */,
 				C3BCDF0B17A30E2100C56AE2 /* Frameworks */,
 				C3BCDF0A17A30E2100C56AE2 /* Products */,
 			);
@@ -93,7 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				C3BCDF0917A30E2100C56AE2 /* libBridgeKit.a */,
-				C3BCDF1A17A30E2200C56AE2 /* BridgeKitTests.octest */,
+				C3DAD17817A41CD0009E24D7 /* BridgeKitTests.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,9 +135,10 @@
 		C3BCDF0B17A30E2100C56AE2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C3DAD16E17A406D4009E24D7 /* UIKit.framework */,
 				C3BCDF0C17A30E2100C56AE2 /* Foundation.framework */,
 				C3BCDF1B17A30E2200C56AE2 /* SenTestingKit.framework */,
-				C3BCDF1D17A30E2200C56AE2 /* UIKit.framework */,
+				C3DAD17B17A41CD1009E24D7 /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -113,39 +148,86 @@
 			children = (
 				C3BCDF1117A30E2100C56AE2 /* BridgeKit.h */,
 				C3BCDF1317A30E2100C56AE2 /* BridgeKit.m */,
-				C3BCDF0F17A30E2100C56AE2 /* Supporting Files */,
+				C3DAD16B17A4044A009E24D7 /* BridgeKitCallback.h */,
+				C3DAD16C17A4044A009E24D7 /* BridgeKitCallback.m */,
+				C3DAD17017A406EE009E24D7 /* BridgeKitDelegate.h */,
+				C3DAD17117A409FA009E24D7 /* BridgeKitRequest.h */,
+				C3DAD17217A409FA009E24D7 /* BridgeKitRequest.m */,
+				C3BBE66417A5F30300B11703 /* BridgeKitDelegateRequest.h */,
+				C3BBE66517A5F30300B11703 /* BridgeKitDelegateRequest.m */,
+				C3BCDF3417A30E9000C56AE2 /* BridgeKit.js */,
 			);
 			path = BridgeKit;
 			sourceTree = "<group>";
 		};
-		C3BCDF0F17A30E2100C56AE2 /* Supporting Files */ = {
+		C3DAD17D17A41CD1009E24D7 /* BridgeKitTests */ = {
 			isa = PBXGroup;
 			children = (
-				C3BCDF1017A30E2100C56AE2 /* BridgeKit-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		C3BCDF2317A30E2200C56AE2 /* BridgeKitTests */ = {
-			isa = PBXGroup;
-			children = (
-				C3BCDF2917A30E2200C56AE2 /* BridgeKitTests.h */,
-				C3BCDF2A17A30E2200C56AE2 /* BridgeKitTests.m */,
-				C3BCDF2417A30E2200C56AE2 /* Supporting Files */,
+				C3DAD19F17A4211B009E24D7 /* HTML & JavaScript */,
+				C3DAD19E17A420D7009E24D7 /* View Controllers */,
+				C3DAD19817A41D84009E24D7 /* AppDelegate.h */,
+				C3DAD19917A41D84009E24D7 /* AppDelegate.m */,
+				C3DAD18F17A41CD1009E24D7 /* MainStoryboard.storyboard */,
+				C3DAD17E17A41CD1009E24D7 /* Supporting Files */,
 			);
 			path = BridgeKitTests;
 			sourceTree = "<group>";
 		};
-		C3BCDF2417A30E2200C56AE2 /* Supporting Files */ = {
+		C3DAD17E17A41CD1009E24D7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				C3BCDF2517A30E2200C56AE2 /* BridgeKitTests-Info.plist */,
-				C3BCDF2617A30E2200C56AE2 /* InfoPlist.strings */,
+				C3DAD17F17A41CD1009E24D7 /* BridgeKitTests-Info.plist */,
+				C3DAD18017A41CD1009E24D7 /* InfoPlist.strings */,
+				C3DAD18317A41CD1009E24D7 /* main.m */,
+				C3DAD18917A41CD1009E24D7 /* Default.png */,
+				C3DAD18B17A41CD1009E24D7 /* Default@2x.png */,
+				C3DAD18D17A41CD1009E24D7 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		C3DAD19E17A420D7009E24D7 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C3DAD19B17A420C3009E24D7 /* EventHandlingViewController.h */,
+				C3DAD19C17A420C3009E24D7 /* EventHandlingViewController.m */,
+				C3BBE66717A5F88600B11703 /* NativeEventHandlingViewController.h */,
+				C3BBE66817A5F88600B11703 /* NativeEventHandlingViewController.m */,
+				C3BBE67017A5FC6A00B11703 /* AsynchronousRequestsViewController.h */,
+				C3BBE67117A5FC6A00B11703 /* AsynchronousRequestsViewController.m */,
+				C3BBE67317A5FFAD00B11703 /* SynchronousRequestsViewController.h */,
+				C3BBE67417A5FFAD00B11703 /* SynchronousRequestsViewController.m */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		C3DAD19F17A4211B009E24D7 /* HTML & JavaScript */ = {
+			isa = PBXGroup;
+			children = (
+				C3DAD1A017A42134009E24D7 /* EventHandling.html */,
+				C3BBE66A17A5F8A100B11703 /* NativeEventHandling.html */,
+				C3BBE66C17A5FBA000B11703 /* AsynchronousRequests.html */,
+				C3BBE66D17A5FBA000B11703 /* SynchronousRequests.html */,
+			);
+			path = "HTML & JavaScript";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C3BBE67A17A69A4500B11703 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3BBE67B17A69A5400B11703 /* BridgeKit.h in Headers */,
+				C3BBE67C17A69A5400B11703 /* BridgeKitCallback.h in Headers */,
+				C3BBE67D17A69A5400B11703 /* BridgeKitDelegate.h in Headers */,
+				C3BBE67E17A69A5400B11703 /* BridgeKitRequest.h in Headers */,
+				C3BBE67F17A69A5400B11703 /* BridgeKitDelegateRequest.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		C3BCDF0817A30E2100C56AE2 /* BridgeKit */ = {
@@ -154,7 +236,7 @@
 			buildPhases = (
 				C3BCDF0517A30E2100C56AE2 /* Sources */,
 				C3BCDF0617A30E2100C56AE2 /* Frameworks */,
-				C3BCDF0717A30E2100C56AE2 /* CopyFiles */,
+				C3BBE67A17A69A4500B11703 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -165,24 +247,23 @@
 			productReference = C3BCDF0917A30E2100C56AE2 /* libBridgeKit.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		C3BCDF1917A30E2200C56AE2 /* BridgeKitTests */ = {
+		C3DAD17717A41CD0009E24D7 /* BridgeKitTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C3BCDF3117A30E2200C56AE2 /* Build configuration list for PBXNativeTarget "BridgeKitTests" */;
+			buildConfigurationList = C3DAD19517A41CD1009E24D7 /* Build configuration list for PBXNativeTarget "BridgeKitTests" */;
 			buildPhases = (
-				C3BCDF1517A30E2200C56AE2 /* Sources */,
-				C3BCDF1617A30E2200C56AE2 /* Frameworks */,
-				C3BCDF1717A30E2200C56AE2 /* Resources */,
-				C3BCDF1817A30E2200C56AE2 /* ShellScript */,
+				C3DAD17417A41CD0009E24D7 /* Sources */,
+				C3DAD17517A41CD0009E24D7 /* Frameworks */,
+				C3DAD17617A41CD0009E24D7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C3BCDF2117A30E2200C56AE2 /* PBXTargetDependency */,
+				C3DAD1A517A42262009E24D7 /* PBXTargetDependency */,
 			);
 			name = BridgeKitTests;
 			productName = BridgeKitTests;
-			productReference = C3BCDF1A17A30E2200C56AE2 /* BridgeKitTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productReference = C3DAD17817A41CD0009E24D7 /* BridgeKitTests.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -206,37 +287,29 @@
 			projectRoot = "";
 			targets = (
 				C3BCDF0817A30E2100C56AE2 /* BridgeKit */,
-				C3BCDF1917A30E2200C56AE2 /* BridgeKitTests */,
+				C3DAD17717A41CD0009E24D7 /* BridgeKitTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C3BCDF1717A30E2200C56AE2 /* Resources */ = {
+		C3DAD17617A41CD0009E24D7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3BCDF2817A30E2200C56AE2 /* InfoPlist.strings in Resources */,
+				C3DAD1A217A42243009E24D7 /* EventHandling.html in Resources */,
+				C3DAD18217A41CD1009E24D7 /* InfoPlist.strings in Resources */,
+				C3DAD18A17A41CD1009E24D7 /* Default.png in Resources */,
+				C3DAD18C17A41CD1009E24D7 /* Default@2x.png in Resources */,
+				C3DAD18E17A41CD1009E24D7 /* Default-568h@2x.png in Resources */,
+				C3DAD19117A41CD1009E24D7 /* MainStoryboard.storyboard in Resources */,
+				C3BBE66B17A5F8A100B11703 /* NativeEventHandling.html in Resources */,
+				C3BBE66E17A5FBA000B11703 /* AsynchronousRequests.html in Resources */,
+				C3BBE66F17A5FBA000B11703 /* SynchronousRequests.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		C3BCDF1817A30E2200C56AE2 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C3BCDF0517A30E2100C56AE2 /* Sources */ = {
@@ -244,34 +317,50 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3BCDF1417A30E2200C56AE2 /* BridgeKit.m in Sources */,
+				C3DAD16D17A4044A009E24D7 /* BridgeKitCallback.m in Sources */,
+				C3DAD17317A409FA009E24D7 /* BridgeKitRequest.m in Sources */,
+				C3BBE66617A5F30300B11703 /* BridgeKitDelegateRequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C3BCDF1517A30E2200C56AE2 /* Sources */ = {
+		C3DAD17417A41CD0009E24D7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3BCDF2B17A30E2200C56AE2 /* BridgeKitTests.m in Sources */,
+				C3DAD18417A41CD1009E24D7 /* main.m in Sources */,
+				C3DAD19A17A41D84009E24D7 /* AppDelegate.m in Sources */,
+				C3DAD19D17A420C3009E24D7 /* EventHandlingViewController.m in Sources */,
+				C3BBE66917A5F88600B11703 /* NativeEventHandlingViewController.m in Sources */,
+				C3BBE67217A5FC6A00B11703 /* AsynchronousRequestsViewController.m in Sources */,
+				C3BBE67517A5FFAD00B11703 /* SynchronousRequestsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C3BCDF2117A30E2200C56AE2 /* PBXTargetDependency */ = {
+		C3DAD1A517A42262009E24D7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = C3BCDF0817A30E2100C56AE2 /* BridgeKit */;
-			targetProxy = C3BCDF2017A30E2200C56AE2 /* PBXContainerItemProxy */;
+			targetProxy = C3DAD1A417A42262009E24D7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C3BCDF2617A30E2200C56AE2 /* InfoPlist.strings */ = {
+		C3DAD18017A41CD1009E24D7 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C3BCDF2717A30E2200C56AE2 /* en */,
+				C3DAD18117A41CD1009E24D7 /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C3DAD18F17A41CD1009E24D7 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3DAD19017A41CD1009E24D7 /* en */,
+			);
+			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -335,7 +424,7 @@
 			buildSettings = {
 				DSTROOT = /tmp/BridgeKit.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BridgeKit/BridgeKit-Prefix.pch";
+				GCC_PREFIX_HEADER = "";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -347,40 +436,35 @@
 			buildSettings = {
 				DSTROOT = /tmp/BridgeKit.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BridgeKit/BridgeKit-Prefix.pch";
+				GCC_PREFIX_HEADER = "";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
-		C3BCDF3217A30E2200C56AE2 /* Debug */ = {
+		C3DAD19617A41CD1009E24D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BridgeKit/BridgeKit-Prefix.pch";
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = "BridgeKitTests/BridgeKitTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = octest;
+				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
-		C3BCDF3317A30E2200C56AE2 /* Release */ = {
+		C3DAD19717A41CD1009E24D7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BridgeKit/BridgeKit-Prefix.pch";
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = "BridgeKitTests/BridgeKitTests-Info.plist";
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = octest;
+				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
@@ -403,14 +487,16 @@
 				C3BCDF3017A30E2200C56AE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		C3BCDF3117A30E2200C56AE2 /* Build configuration list for PBXNativeTarget "BridgeKitTests" */ = {
+		C3DAD19517A41CD1009E24D7 /* Build configuration list for PBXNativeTarget "BridgeKitTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C3BCDF3217A30E2200C56AE2 /* Debug */,
-				C3BCDF3317A30E2200C56AE2 /* Release */,
+				C3DAD19617A41CD1009E24D7 /* Debug */,
+				C3DAD19717A41CD1009E24D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

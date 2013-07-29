@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function initializeTest() {
+                BridgeKit.registerNativeEvent('UIApplicationDidBecomeActiveNotification', function () {
+                    document.getElementById('textUpdate').innerHTML = 'Did become active!';
+                });
+                
+                BridgeKit.registerNativeEvent('UIApplicationWillResignActiveNotification', function () {
+                    document.getElementById('textUpdate').innerHTML = 'Will resign active!';
+                });
+            }
+        </script>
+    </head>
+    <body onload="initializeTest()">
+        <div id="textUpdate">
+            Waiting for you to press the home button!
+        </div>
+
+        <br/>
+
+        <div>
+            Here is the javascript code that sets up this example:
+            <br/>
+
+            <pre><code>BridgeKit.registerNativeEvent('UIApplicationDidBecomeActiveNotification', function () {
+    document.getElementById('textUpdate').innerHTML = 'Did become active!';
+});
+
+BridgeKit.registerNativeEvent('UIApplicationWillResignActiveNotification', function () {
+    document.getElementById('textUpdate').innerHTML = 'Will resign active!';
+});</code></pre>
+        </div>
+    </body>
+</html>

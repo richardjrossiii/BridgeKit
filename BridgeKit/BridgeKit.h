@@ -1,13 +1,20 @@
-//
-//  BridgeKit.h
-//  BridgeKit
-//
-//  Created by Angry Beast on 7/26/13.
-//  Copyright (c) 2013 richardjrossiii. All rights reserved.
-//
-
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+
+#import "BridgeKitCallback.h"
+#import "BridgeKitDelegate.h"
+#import "BridgeKitRequest.h"
+#import "BridgeKitDelegateRequest.h"
 
 @interface BridgeKit : NSObject
+
+@property UIWebView *webView;
+
++(BridgeKit *) bridgeKitWithWebView:(UIWebView *) webView delegate:(id<BridgeKitDelegate>) delegate;
+-(void) setURLScheme:(NSString *) newScheme;
+
+-(void) sendEvent:(NSString *) eventName;
+-(void) sendEvent:(NSString *) eventName withArguments:(id) args, ... NS_REQUIRES_NIL_TERMINATION;
+-(void) sendEvent:(NSString *) eventName withArgumentsArray:(NSArray *) arguments;
 
 @end

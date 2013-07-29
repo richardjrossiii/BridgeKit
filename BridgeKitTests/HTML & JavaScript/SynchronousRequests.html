@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function buttonPress() {
+                document.getElementById('textUpdate').innerHTML = BridgeKit.sendSynchronousRequest('getNewText', []);
+            }
+            </script>
+    </head>
+    <body>
+        <div id="textUpdate">
+            Waiting for you to press the button!
+        </div>
+        
+        <input type="button" onclick="buttonPress()" value="Click Me!" />
+        
+        <br/>
+        
+        <div>
+            Here is the javascript code that sets up this example:
+            <br/>
+            
+            <pre><code>document.getElementById('textUpdate').innerHTML = BridgeKit.sendSyncronousRequest('getNewText', []);</code></pre>
+        </div>
+    </body>
+</html>
